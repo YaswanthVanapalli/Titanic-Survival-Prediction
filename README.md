@@ -65,7 +65,32 @@ The model was evaluated based on accuracy and confusion matrix. The predictions 
 
 ## 🚀 How to Run
 
-1. Clone this repository
-2. Install the required libraries:
+1. **Clone this Repository**  
+   If you have Git installed, open a terminal and run:
    ```bash
-   pip install numpy pandas scikit-learn
+   git clone https://github.com/your-username/titanic-knn.git
+   cd titanic-knn
+2. Install Required Libraries
+Make sure Python is installed, then install the necessary libraries:
+```bash
+ pip install numpy pandas scikit-learn matplotlib seaborn
+```
+3. Download the Titanic Dataset
+
+Download `train.csv` and `test.csv` from the [Kaggle Titanic Challenge](https://www.kaggle.com/c/titanic/data) and place them in the same folder as the notebook.
+"""
+4. Open the Notebook
+If using Jupyter:
+```bash
+jupyter notebook "Titanic Survival Prediction using k-NN.ipynb"
+
+```
+Or if you're using Google Colab, upload the notebook and dataset files there.
+
+5. Run All Cells
+Go through each cell step-by-step, or use "Run All" to execute the entire notebook. The model will train and produce predictions.
+
+6. Submit to Kaggle (Optional)
+The notebook will create a `.csv` file with predictions. You can submit it to Kaggle to see your accuracy on their leaderboard.
+
+
