@@ -1,5 +1,4 @@
-# Save the generated README content to a file
-readme_content = """
+
 # 🚢 Titanic Survival Prediction using k-NN
 
 This project predicts whether a passenger survived the Titanic shipwreck using the k-Nearest Neighbors (k-NN) algorithm. It is built using Python and uses data from the famous Titanic dataset on Kaggle.
